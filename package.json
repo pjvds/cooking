@@ -1,0 +1,28 @@
+{
+  "name": "cooking",
+  "version": "0.0.0",
+  "description": "cooking =======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hatchan/cooking.git"
+  },
+  "dependencies": {
+    "express": "2.5.x"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "jam": {
+    "dependencies": {
+      "jquery": null,
+      "backbone": null
+    }
+  },
+  "author": "hatchan",
+  "license": "BSD"
+}
