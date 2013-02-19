@@ -1,0 +1,3 @@
+{
+  preInstall: 'ls -l /build && ls -l /build/'
+}
