@@ -1,3 +1,4 @@
 {
+  "root": "src",
   "preDeploy" : ["ls -l /build", "ls -l /build/"]
 }
