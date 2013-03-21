@@ -6,7 +6,7 @@
     "export WERCKER_DEPLOY=$WERCKER_ROOT/../deploy",
     "export GIT_SSH=$WERCKER_DEPLOY/gitssh",
     "export SSHKEYPATH=$OPENSHIFT_SSHKEYPATH",
-    "echo $OPENSHIFT_SSHKEY | sed -e 's/\\n/\n/gi' > $OPENSHIFT_SSHKEYPATH",
+    "echo $OPENSHIFT_SSHKEY | sed -e 's/\\\n/\\n/gi' > $OPENSHIFT_SSHKEYPATH",
     "git clone ssh://$OPENSHIFT_ID@$OPENSHIFT_HOST/~/git/$OPENSHIFT_APPLICATION.git $OPENSHIFT_DEPLOYDIR",
     "cp -rf $WERCKER_ROOT $OPENSHIFT_DEPLOYDIR",
     "cd $OPENSHIFT_DEPLOYDIR",
