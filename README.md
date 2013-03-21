@@ -1,5 +1,4 @@
 cooking
 =======
 
-
 - OpenShift integration
