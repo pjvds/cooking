@@ -1,7 +1,6 @@
 {
   "root": "src",
   "deploy" : [
-    "echo $WERCKER_ROOT",
     "export OPENSHIFT_SSHKEYPATH=`mktemp`",
     "export OPENSHIFT_DEPLOYDIR=`mktemp --directory`",
     "export WERCKER_DEPLOY=$WERCKER_ROOT/../deploy",
