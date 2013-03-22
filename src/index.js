@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World!');
+  response.send('Hello OpenShift Integration!!!');
 });
 
 var port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 5000;
