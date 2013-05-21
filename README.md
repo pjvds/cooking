@@ -2,4 +2,3 @@ cooking
 =======
 
 - OpenShift integration
-test
