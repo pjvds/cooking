@@ -1,3 +1,3 @@
 {
-  "preDeploy" : ["ls -l /build", "ls -l /build/"]
+  "preDeploy" : ["ls -l /build/foob/arbar", "ls -l /build/"]
 }
